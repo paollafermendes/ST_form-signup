@@ -1,0 +1,118 @@
+:root {
+    --co1: #7fb0c7;
+    --co2: #ffffff;
+    --co3: #4e4e4e;
+    --co4: #ffa5aa;
+    --co5: #8a8a8a; 
+    --font: "DM Sans", sans-serif;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/412/075/non_2x/abstract-pastel-purple-minimal-background-for-invitation-or-banner-free-vector.jpg);
+    background-size: cover;
+    font-family: var(--font);
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+.signup {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: var(--co2);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.signup__container {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup__container h1 {
+    color: var(--co4);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.signup__container > span {
+    color: var(--co3);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.signup__social-login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    border-bottom: solid 0.5px #bbbbbb;
+}
+
+.signup__social-login .btn-google, .btn-apple, .btn-facebook {
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 0 15px;
+}
+
+.signup__social-login .btn-google:hover,
+.signup__social-login .btn-apple:hover,
+.signup__social-login .btn-facebook:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.signup__form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup__form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.signup__form button[type="submit"] {
+    background-color: var(--co4);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 90%;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.signup__form button[type="submit"]:hover {
+    background-color: #f58286;
+    cursor: pointer;
+}
+
+.signin a, .signup span a {
+    color: var(--co1);
+    text-decoration: none;
+}
+
+.signin a:hover, .signup span a:hover {
+    text-decoration: underline;
+}
