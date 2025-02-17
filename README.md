@@ -6,4 +6,5 @@ Este repositório contém um exemplo de um formulário de registro construído c
 O repositório inclui os seguintes arquivos:
 
 index.html: Estrutura básica do formulário, incluindo os campos de entrada e o botão de envio.
+
 styles.css: Estilos visuais do formulário, como cores, fontes e layout.
